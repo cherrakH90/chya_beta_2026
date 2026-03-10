@@ -1,9 +1,9 @@
 {
   "version": 2,
   "public": true,
-  "cleanUrls": true,
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+  "name": "chya-beta-2026",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
 
